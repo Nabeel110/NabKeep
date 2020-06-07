@@ -4,10 +4,10 @@ import React from "react";
 function Footer(){
     const year = new Date().getFullYear();
     return(
-        <footer>
-            <p>Made with ❤ by Nabeel Ahmed</p>
-            <p>     Copyright ⓒ {year}</p>
-        </footer>
+        <div className = "footer">
+            <p>Made with ❤ by Nabeel Ahmed <br />Copyright ⓒ {year}<br /></p>
+            
+        </div>
     );
 }
 

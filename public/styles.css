@@ -9,31 +9,40 @@
   body {
     background: #eee;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    padding: 0 16px;
+    /* padding: 0 16px; */
   }
 
   header {
-    background-color: crimson;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: crimson;
+   padding: 16px 32px;
+   overflow: hidden;
+    width: 100%;
+   max-width: 100%; 
+   margin: 0 auto;
   }
+    
 
   header h1 {
     color: #fff;
     font-family: "McLaren", cursive;
     font-weight: 200;
+    width: 200px;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    float: left;
   }
 
-  footer {
-        position: absolute;
-        text-align: center;
+  .footer {
+        position: fixed;
+        left: 0;
         bottom: 0;
         width: 100%;
+        text-align: center;
         height: 2.5rem;
   }
   
-  footer p{
+  .footer p{
       color: rgba(248, 97, 97, 0.452);
   }
 
@@ -42,9 +51,10 @@
       border-radius: 7px;
       box-shadow: 0 2px 5px #ccc;
       padding: 10px;
-      width: 240px;
+      width: 200px;
       margin: 16px;
       float: left;
+      overflow: hidden;
   }
   .note h1 {
     font-size: 1.1em;
@@ -70,8 +80,9 @@
 
   form.create-note {
     position: relative;
-    width: 480px;
+    width: 50%;
     margin: 30px auto 20px auto;
+    align-self: center;
     background: #fff;
     padding: 15px;
     border-radius: 7px;
@@ -101,3 +112,4 @@
     cursor: pointer;
     outline: none;
   }
+  
