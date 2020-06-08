@@ -17,10 +17,10 @@
    padding: 16px 32px;
    overflow: hidden;
     width: 100%;
-   max-width: 100%; 
+   max-width: 100%;
    margin: 0 auto;
   }
-    
+
 
   header h1 {
     color: #fff;
@@ -39,9 +39,10 @@
         bottom: 0;
         width: 100%;
         text-align: center;
+        margin-bottom: 10px;
         height: 2.5rem;
   }
-  
+
   .footer p{
       color: rgba(248, 97, 97, 0.452);
   }
@@ -112,4 +113,3 @@
     cursor: pointer;
     outline: none;
   }
-  

@@ -6,7 +6,7 @@ function Footer(){
     return(
         <div className = "footer">
             <p>Made with ❤ by Nabeel Ahmed <br />Copyright ⓒ {year}<br /></p>
-            
+
         </div>
     );
 }
